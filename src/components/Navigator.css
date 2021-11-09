@@ -1,0 +1,38 @@
+img {
+  height: 70px;
+  width: auto;
+  margin-left: 5vw;
+}
+
+.navigator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  background-size: cover;
+  font-family: sans-serif;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.navigator * {
+  display: inline;
+}
+
+.navigator ul {
+  margin-left: 20vw;
+}
+
+.navigator li {
+  margin: 80px;
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+
